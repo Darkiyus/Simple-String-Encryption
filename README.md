@@ -1,6 +1,6 @@
 # Simple-Encryption by Darkiyus
 A simple encryption, to include in your project!
-I would be happy if you use this, then also mention me in your project-credits :)
+
 
 # How do I use this?
 
