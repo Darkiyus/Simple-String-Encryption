@@ -1,4 +1,4 @@
-# Simple-Encryption-
+# Simple-Encryption by Darkiyus
 A simple encryption, to include in your project!
 
 # How do I use this?
