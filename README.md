@@ -1,5 +1,5 @@
 # Simple-Encryption by Darkiyus
-A simple encryption, to include in your project!
+A simple string encryption, to include in your project!
 
 
 # How do I use this?
