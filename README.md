@@ -32,8 +32,9 @@ The second value is the string you want to encrypt!
 # What characters can all be encrypted?
 
 A total of 85 characters can currently be encrypted.
-A-Z, a-z, Ä-Ö, ä-ö, 0-9 and the following special characters:
-@.,-_?!%&#+*ß:\/ additionally spaces
+
+    A-Z, a-z, Ä-Ö, ä-ö, 0-9 and the following special characters:
+    @.,-_?!%&#+*ß:\/ additionally spaces
 
 
 
