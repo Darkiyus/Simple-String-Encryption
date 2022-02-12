@@ -5,10 +5,11 @@
     {
 
         var ec = new DarkiyusCryption();
+        int loopPass = 2;
 
         if (operation == 0) //Encryption
         {
-            for (int i = 0; i < 2; i++) //encrypted twice for better security
+            for (int i = 0; i < loopPass; i++) //encrypted twice for better security
             {
                 Input = ec.Encryption(Input);
             }
@@ -19,7 +20,7 @@
         }
         if (operation == 1) //Decryption
         {
-            for(int i = 0; i < 2; i++) //decrypts twice
+            for(int i = 0; i < loopPass; i++) //decrypts twice
             {
                 Input = ec.Decryption(Input);
             }
