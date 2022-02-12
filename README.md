@@ -1,6 +1,9 @@
 # Simple-Encryption by Darkiyus
 A simple string encryption, to include in your project!
 
+# Important!
+The encrypted password is four times larger than the original string!
+Keep this in mind when creating a database!
 
 # How do I use this?
 
