@@ -1,4 +1,4 @@
-# Simple-Encryption by Darkiyus
+# Simple-String-Encryption by Darkiyus
 A simple string encryption, to include in your project!
 
 # Important!
@@ -7,12 +7,18 @@ Keep this in mind when creating a database!
 
 # How do I use this?
 
-Put the Darkiyus-CrypterMain.cs into your project
-(That's all you need!)
+# How do I use it?
+1. include the Darkiyus-Crypter.dll in your project.
 
-To decrypt or encrypt a string use the following:
+            right click on your project -> add -> project reference -> browse -> select Darkiyus-Crypter.dll -> ok
+            
+2. specify DarkiyusCryptionLib as namespace
+            
+       using DarkiyusCryptionLib;
 
-    DarkiyusCryption.Main(int operation, string Input);
+3. To decrypt or encrypt a string use the following:
+
+       Darkiyus.Crypter(int operation, string Input);
 
 The function expects two values!
 The first value determines what you want to do:
@@ -26,12 +32,12 @@ The second value is the string you want to encrypt!
     private void Encrypted_Click(object sender, EventArgs e)
         {
             string Text = textBox1.Text;
-            textBox1.Text = DarkiyusCryption.Main(0, Text);
+            textBox1.Text = Darkiyus.Crypter(0, Text);
         }
     private void Decrypted_Click(object sender, EventArgs e)
         {
             string Text = textBox1.Text;
-            textBox1.Text = DarkiyusCryption.Main(1, Text);
+            textBox1.Text = Darkiyus.Crypter(1, Text);
         }
 # What characters can all be encrypted?
 
@@ -40,7 +46,7 @@ A total of 85 characters can currently be encrypted.
     A-Z, a-z, Ä-Ö, ä-ö, 0-9 and the following special characters:
     @.,-_?!%&#+*ß:\/ additionally spaces
     
-# Settings
+# Settings (DarkiyusCryption.cs Code adjustment)
 You can add more characters, for this you would only have to change the last digit of the array to the desired length in the Table() function and insert your additional characters there (in the first array column).
 
 Furthermore you would have to change the int TableCharacter in the function Variables to the new length.
