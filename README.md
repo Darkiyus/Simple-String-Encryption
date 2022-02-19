@@ -19,9 +19,11 @@ Keep this in mind when creating a database!
        Darkiyus.Crypter(int operation, string Input);
 
 The function expects two values!
+
 The first value determines what you want to do:
-0 = encrypt
-1 = decrypt
+
+            0 = encrypt
+            1 = decrypt
 
 The second value is the string you want to encrypt!
 
