@@ -5,8 +5,6 @@ A simple string encryption, to include in your project!
 The encrypted password is four times larger than the original string!
 Keep this in mind when creating a database!
 
-# How do I use this?
-
 # How do I use it?
 1. include the Darkiyus-Crypter.dll in your project.
 
