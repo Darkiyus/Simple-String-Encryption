@@ -1,5 +1,6 @@
-# Simple-String-Encryption by Darkiyus
+# Simple-String-Encryption by Darkiyus (caesar encryption)
 A simple string encryption, to include in your project!
+
 
 # Important!
 The encrypted password is four times larger than the original string!
